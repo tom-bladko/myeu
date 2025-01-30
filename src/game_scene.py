@@ -254,6 +254,8 @@ class GameScene(QGraphicsScene):
         #   switch zoom modes
         #
 
+
+
         if event.key() == Qt.Key_F1:
             db.province_manager.switch_map_mode('terrain')
         if event.key() == Qt.Key_F2:
