@@ -1,0 +1,69 @@
+# Masovia #
+
+countries:
+  MAS:
+    name: Masovia
+    ai: "default_ai.txt"
+
+    treasury: 250
+    inflation: 0
+    stability: -1
+
+    agents:
+      colonists: 0
+      merchants: 1.083333
+
+    religion: catholic
+    cultures:
+      - polish
+
+    diplomacy:
+      relation:
+        POL: 150
+        LIT: 150
+        BOH: 150
+        HUN: 150
+        LAT: -100
+
+    knownregions:
+      - Europe
+    knownprovinces:
+      - 732 # Tangiers
+      - 477
+      - 478 # Bosphorus strait
+
+    ownedprovinces:
+      - 291
+      - 292
+    controlledprovinces:
+      - 291
+      - 292
+    nationalprovinces:
+      - 291
+    claimedprovinces:
+      - 292
+
+    cities:
+      291:
+        buildings:
+          fortress: 1
+        population: 10000
+        capital: yes
+      292:
+        buildings:
+          fortress: 1
+        population: 8000
+
+    landunits:
+      - name: "Army of Masovia"
+        location: 291
+        infantry: 8000
+        cavalry: 3000
+        artillery: 0
+
+    technology:
+      admin: 0
+      infra: 0
+      trade: 1
+      land: 0
+      naval: 0

@@ -1,0 +1,93 @@
+# Austria #
+
+countries:
+  HAB:
+    name: Austria
+    ai: "HAB_1419_Small"
+
+    treasury: 500
+    inflation: 0
+    stability: -1
+
+    agents:
+      colonists: 0
+      merchants: 0
+
+    religion: catholic
+    cultures:
+      - german
+
+    diplomacy:
+      relation:
+        BAD: 100
+        BUR: 50
+        BAY: 150
+        CEL: 100
+        BRA: -50
+        HUN: -100
+        BOH: -100
+        HEL: -150
+
+    knownregions:
+      - Europe
+    knownprovinces:
+      - 732 # Tangiers
+      - 477
+      - 478 # Bosphorus strait
+    ownedprovinces:
+      - 327
+      - 350
+      - 351
+      - 369
+      - 371
+    controlledprovinces:
+      - 327
+      - 350
+      - 351
+      - 369
+      - 371
+    nationalprovinces:
+      - 327
+      - 350
+      - 351
+      - 369
+      - 371
+    claimedprovinces:
+      - 367
+
+    cities:
+      327:
+        buildings:
+          fortress: 1
+        population: 6
+      350:
+        buildings:
+          fortress: 1
+        population: 6
+      351:
+        buildings:
+          fortress: 1
+        population: 7
+        capital: yes
+      369:
+        buildings:
+          fortress: 1
+        population: 7
+      371:
+        buildings:
+          fortress: 1
+        population: 5
+
+    landunits:
+      - name: "k.k. Armee"
+        location: 351
+        infantry: 10
+        cavalry: 2
+        artillery: 0
+
+    technology:
+      admin: 0
+      infra: 0
+      trade: 1
+      land: 0
+      naval: 0

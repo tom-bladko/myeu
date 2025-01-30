@@ -1,0 +1,58 @@
+#
+# TERRAINS
+#
+
+
+#
+#   basic move cost is 1.0
+#   army basic move speed is 3.0 = 3 provinces per turn
+#   min cost to move on province is 0.5
+#   max cost to move on province is 3.0
+#   cavalery is 50% faster (4.0), artilery is 50% slower (2.0)
+#
+
+
+---
+
+terrains:
+  plains:
+    name: Plains
+    color: light_green
+    effect: True
+    army_movement: 1.0
+    merchant_movement: 1.0
+
+  forest:
+    name: Forest
+    color: green
+    effect: True
+    army_movement: 1.25
+    merchant_movement: 1.0
+
+  desert:
+    name: Desert
+    color: yellow
+    effect: True
+    army_movement: 1.25
+    merchant_movement: 1.5
+
+  mountain:
+    name: Mountains
+    color: orange
+    effect: True
+    army_movement: 1.75
+    merchant_movement: 2
+
+  marsh:
+    name: Swamp
+    color: olive
+    effect: True
+    army_movement: 1.5
+    merchant_movement: 3
+
+  sea:
+    name: Water
+    color: basic_water
+    effect: False
+    army_movement: 1.0
+    merchant_movement: 0.5

@@ -1,0 +1,117 @@
+# Venice #
+
+countries:
+  VEN:
+    name: Venice
+    ai: "VEN_1419"
+
+    treasury: 500
+    inflation: 0
+    stability: 0
+
+    agents:
+      merchants: 6.0
+      colonists: 1
+      diplomats: 1
+
+    religion: catholic
+    cultures:
+      - italian
+      - slavonic
+      - greek
+
+    diplomacy:
+      relations:
+        GEN: -200
+
+    knownregions:
+      - Anatolia
+      - Europe
+      - Levant
+      - North Africa
+
+    ownedprovinces:
+      - 359
+      - 368
+      - 370
+      - 480
+      - 820
+    controlledprovinces:
+      - 359
+      - 368
+      - 370
+      - 480
+      - 820
+    nationalprovinces:
+      - 368
+      - 370
+      - 480
+      - 820
+    claimedprovinces:
+      - 359
+      - 360
+      - 361
+      - 362
+      - 365
+      - 390
+      - 479
+
+    cities:
+      370:
+        buildings:
+          fortress: 2
+          shipyard: 1
+        population: 60
+        capital: yes
+      359:
+        buildings:
+          fortress: 1
+        population: 20
+      368:
+        buildings:
+          fortress: 1
+        population: 10
+      480:
+        buildings:
+          fortress: 2
+        population: 6
+      820:
+        buildings:
+          fortress: 2
+        population: 5
+
+    landunits:
+      - ame: "Doge's Guard"
+        location: 370
+        infantry: 8
+        cavalry: 2
+        artillery: 0
+      - name: "Army of the Adriatic"
+        location: 368
+        infantry: 15
+        cavalry: 5
+        artillery: 5
+      - name: "Army of the Aegean"
+        location: 359
+        infantry: 10
+        cavalry: 2
+        artillery: 5
+
+    navalunits:
+      - name: "Adriatic Fleet"
+        location: 999
+        warships: 5
+        galleys: 25
+        transports: 0
+      - name: "Aegean Fleet"
+        location: 359
+        warships: 0
+        galleys: 15
+        transports: 5
+
+    technology:
+      admin: 0
+      infra: 0
+      trade: 2
+      land: 0
+      naval: 1

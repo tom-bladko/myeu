@@ -1,0 +1,96 @@
+# Byzantium #
+
+countries:
+  BYZ:
+    name: Byzantium
+    ai: "default_ai"
+
+    treasury: 100
+    inflation: 0
+    stability: -2
+
+    agents:
+      colonists: 0
+      merchants: 0.083333
+      diplomats: 1
+
+    religion: orthodox
+    cultures:
+      - greek
+      - slavonic
+
+    diplomacy:
+      relations:
+        MRE: 150
+        TRE: 150
+        GEO: 100
+        CYP: -50
+        KNI: -50
+        NAX: -50
+        MAM: -100
+        TUR: -100
+
+    knownregions:
+      - Europe
+      - Middle East
+      - North Africa
+      - Persia
+
+    knownprovinces: []
+    ownedprovinces:
+      - 357
+    controlledprovinces:
+      - 357
+    nationalprovinces:
+      - 357
+    claimedprovinces:
+      - 320
+      - 321
+      - 356
+      - 358
+      - 359
+      - 360
+      - 361
+      - 474
+      - 475
+      - 476
+      - 477
+      - 478
+      - 479
+      - 480
+      - 481
+      - 482
+      - 483
+      - 484
+      - 820
+      - 1609
+      - 1610
+      - 1611
+
+    cities:
+      357:
+        buildings:
+          fortress: 3
+        population: 100
+        capital: yes
+
+    landunits:
+      - name: "Roman Army"
+        location: 357
+        infantry: 15
+        cavalry: 8
+        artillery: 0
+
+    navalunits:
+      - name: "Roman Fleet"
+        location: 357
+        warships: 5
+        galleys: 15
+        transports: 5
+
+    technology:
+      admin: 0
+      infra: 1
+      trade: 1
+      land: 1
+      naval: 1

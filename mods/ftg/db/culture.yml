@@ -1,0 +1,537 @@
+cultures:
+  nothing:
+    city: OHI
+    buildings: OHI
+    color: basic_land
+  abenaki:
+    city: OHI
+    buildings: OHI
+    color: green
+  aboriginal:
+    city: MOG
+    buildings: MOG
+    color: gray
+  afar:
+    city: BAN
+    buildings: BAN
+    color: light_gray
+  ainu:
+    city: NIP
+    buildings: CHI
+    color: red
+  akan:
+    city: BAN
+    buildings: BAN
+    color: dark_gray
+  albanian:
+    city: BYZ
+    buildings: MIN
+    color: dark_blue
+  altai:
+    city: STE
+    buildings: MUS
+    color: light_gray
+  amazonian:
+    city: AZT
+    buildings: AZT
+    color: light_green
+  apache:
+    city: OHI
+    buildings: OHI
+    color: gray
+  arab:
+    city: MUS
+    buildings: MUS
+    color: yellow
+  arawak:
+    city: AZT
+    buildings: AZT
+    color: light_gray
+  armenian:
+    city: BYZ
+    buildings: RUS
+    color: gray
+  ashanti:
+    city: BAN
+    buildings: BAN
+    color: dark_red
+  atlantean:
+    city: BYZ
+    buildings: MIN
+    color: dark_red
+  aymara:
+    city: AZT
+    buildings: AZT
+    color: brown
+  aztec:
+    city: AZT
+    buildings: AZT
+    color: yellow
+  bakongo:
+    city: BAN
+    buildings: BAN
+    color: brown
+  baltic:
+    city: MIN
+    buildings: MIN
+    color: purple
+  baluchi:
+    city: MUS
+    buildings: MUS
+    color: light_gray
+  basque:
+    city: MIN
+    buildings: MIN
+    color: light_green
+  bengali:
+    city: MOG
+    buildings: MOG
+    color: light_brown
+  berber:
+    city: MUS
+    buildings: MUS
+    color: light_brown
+  burmese:
+    city: MOG
+    buildings: MOG
+    color: light_green
+  carib:
+    city: AZT
+    buildings: AZT
+    color: yellow
+  celtic:
+    city: MIN
+    buildings: MIN
+    color: brown
+  cham:
+    city: MOG
+    buildings: MOG
+    color: dark_red
+  cherokee:
+    city: OHI
+    buildings: OHI
+    color: purple
+  chibcha:
+    city: AZT
+    buildings: AZT
+    color: dark_red
+  circassian:
+    city: MUS
+    buildings: MUS
+    color: red
+  cree:
+    city: OHI
+    buildings: OHI
+    color: light_brown
+  creek:
+    city: OHI
+    buildings: OHI
+    color: dark_orange
+  czech:
+    city: MIN
+    buildings: MIN
+    color: gray
+  dutch:
+    city: MIN
+    buildings: MIN
+    color: light_yellow
+  english:
+    city: MIN
+    buildings: MIN
+    color: red
+  ethiopian:
+    city: BAN
+    buildings: BAN
+    color: purple
+  filipino:
+    city: MOG
+    buildings: MOG
+    color: light_green
+  formosan:
+    city: CHI
+    buildings: CHI
+    color: gray
+  french:
+    city: MIN
+    buildings: MIN
+    color: light_blue
+  georgian:
+    city: BYZ
+    buildings: RUS
+    color: light_blue
+  german:
+    city: MIN
+    buildings: MIN
+    color: yellow
+  gondi:
+    city: MOG
+    buildings: MOG
+    color: dark_orange
+  greek:
+    city: BYZ
+    buildings: MIN
+    color: purple
+  guarani:
+    city: AZT
+    buildings: AZT
+    color: green
+  gujarati:
+    city: MOG
+    buildings: MOG
+    color: light_blue
+  han:
+    city: CHI
+    buildings: CHI
+    color: dark_gray
+  hindi:
+    city: MOG
+    buildings: MOG
+    color: dark_green
+  hokan:
+    city: OHI
+    buildings: OHI
+    color: light_yellow
+  huron:
+    city: OHI
+    buildings: OHI
+    color: yellow
+  iberian:
+    city: MIN
+    buildings: MIN
+    color: dark_gray
+  indonesian:
+    city: MOG
+    buildings: MOG
+    color: light_gray
+  inuit:
+    city: OHI
+    buildings: OHI
+    color: dark_green
+  iroquois:
+    city: OHI
+    buildings: OHI
+    color: dark_blue
+  israelite:
+    city: MUS
+    buildings: MUS
+    color: dark_orange
+  italian:
+    city: MIN
+    buildings: MIN
+    color: dark_green
+  japanese:
+    city: NIP
+    buildings: CHI
+    color: light_blue
+  javanese:
+    city: MOG
+    buildings: MOG
+    color: purple
+  jola:
+    city: BAN
+    buildings: BAN
+    color: light_gray
+  kannadiga:
+    city: MOG
+    buildings: MOG
+    color: dark_red
+  karankawa:
+    city: OHI
+    buildings: OHI
+    color: blue
+  kazakh:
+    city: STE
+    buildings: MUS
+    color: light_brown
+  khmer:
+    city: CHI
+    buildings: CHI
+    color: dark_green
+  khoikhoi:
+    city: BAN
+    buildings: BAN
+    color: light_gray
+  korean:
+    city: NIP
+    buildings: CHI
+    color: yellow
+  kurdish:
+    city: MUS
+    buildings: MUS
+    color: light_brown
+  lenape:
+    city: OHI
+    buildings: OHI
+    color: dark_gray
+  lithuanian:
+    city: MIN
+    buildings: MIN
+    color: dark_green
+  magyar:
+    city: MIN
+    buildings: MIN
+    color: light_yellow
+  malagasy:
+    city: BAN
+    buildings: BAN
+    color: purple
+  malay:
+    city: MOG
+    buildings: MOG
+    color: green
+  maltese:
+    city: MIN
+    buildings: MIN
+    color: gray
+  manchu:
+    city: CHI
+    buildings: CHI
+    color: light_yellow
+  mande:
+    city: BAN
+    buildings: BAN
+    color: dark_green
+  mapuche:
+    city: AZT
+    buildings: AZT
+    color: gray
+  marathi:
+    city: MOG
+    buildings: MOG
+    color: light_yellow
+  mayan:
+    city: AZT
+    buildings: AZT
+    color: dark_green
+  mbundu:
+    city: BAN
+    buildings: BAN
+    color: dark_orange
+  melanesian:
+    city: MOG
+    buildings: MOG
+    color: blue
+  mesoamerican:
+    city: AZT
+    buildings: AZT
+    color: purple
+  mississippian:
+    city: OHI
+    buildings: OHI
+    color: brown
+  miwok:
+    city: OHI
+    buildings: OHI
+    color: dark_blue
+  mon:
+    city: CHI
+    buildings: CHI
+    color: light_yellow
+  mongol:
+    city: STE
+    buildings: CHI
+    color: purple
+  naskapi:
+    city: OHI
+    buildings: OHI
+    color: brown
+  nepali:
+    city: CHI
+    buildings: CHI
+    color: gray
+  nogai:
+    city: STE
+    buildings: MUS
+    color: dark_gray
+  nordic:
+    city: MIN
+    buildings: MIN
+    color: light_gray
+  nubian:
+    city: BAN
+    buildings: BAN
+    color: light_yellow
+  occitan:
+    city: MIN
+    buildings: MIN
+    color: dark_orange
+  pashtun:
+    city: MUS
+    buildings: MUS
+    color: dark_gray
+  permic:
+    city: STE
+    buildings: RUS
+    color: light_blue
+  persian:
+    city: MUS
+    buildings: MUS
+    color: dark_green
+  polish:
+    city: MIN
+    buildings: MIN
+    color: dark_blue
+  polynesian:
+    city: MOG
+    buildings: MOG
+    color: purple
+  portuguese:
+    city: MIN
+    buildings: MIN
+    color: gray
+  punjabi:
+    city: MOG
+    buildings: MOG
+    color: red
+  quechua:
+    city: AZT
+    buildings: AZT
+    color: dark_blue
+  rajput:
+    city: MOG
+    buildings: MOG
+    color: light_brown
+  russian:
+    city: RUS
+    buildings: RUS
+    color: dark_red
+  ruthenian:
+    city: RUS
+    buildings: RUS
+    color: brown
+  salishan:
+    city: OHI
+    buildings: OHI
+    color: brown
+  senegambian:
+    city: BAN
+    buildings: BAN
+    color: dark_blue
+  shawnee:
+    city: OHI
+    buildings: OHI
+    color: dark_red
+  shona:
+    city: BAN
+    buildings: BAN
+    color: light_brown
+  siamese:
+    city: CHI
+    buildings: CHI
+    color: brown
+  sioux:
+    city: OHI
+    buildings: OHI
+    color: dark_green
+  slavonic:
+    city: BYZ
+    buildings: MIN
+    color: light_gray
+  slovak:
+    city: MIN
+    buildings: MIN
+    color: light_brown
+  somali:
+    city: BAN
+    buildings: BAN
+    color: dark_blue
+  songhai:
+    city: BAN
+    buildings: BAN
+    color: purple
+  swahili:
+    city: BAN
+    buildings: BAN
+    color: dark_red
+  swiss:
+    city: MIN
+    buildings: MIN
+    color: dark_red
+  takic:
+    city: OHI
+    buildings: OHI
+    color: dark_green
+  tamil:
+    city: MOG
+    buildings: MOG
+    color: blue
+  tapuia:
+    city: AZT
+    buildings: AZT
+    color: light_brown
+  tarahumara:
+    city: OHI
+    buildings: OHI
+    color: dark_red
+  tatar:
+    city: MUS
+    buildings: MUS
+    color: light_green
+  tehuelche:
+    city: AZT
+    buildings: AZT
+    color: dark_red
+  telugu:
+    city: MOG
+    buildings: MOG
+    color: green
+  tibetan:
+    city: CHI
+    buildings: CHI
+    color: purple
+  tsonga:
+    city: BAN
+    buildings: BAN
+    color: yellow
+  tupi:
+    city: AZT
+    buildings: AZT
+    color: purple
+  turkish:
+    city: MUS
+    buildings: MUS
+    color: brown
+  ugric:
+    city: MIN
+    buildings: MIN
+    color: dark_gray
+  uyghur:
+    city: MUS
+    buildings: MUS
+    color: brown
+  uzbek:
+    city: STE
+    buildings: MUS
+    color: light_yellow
+  vietnamese:
+    city: CHI
+    buildings: CHI
+    color: yellow
+  vlach:
+    city: BYZ
+    buildings: MIN
+    color: dark_gray
+  wichi:
+    city: AZT
+    buildings: AZT
+    color: dark_green
+  xhosa:
+    city: BAN
+    buildings: BAN
+    color: light_green
+  yoruba:
+    city: BAN
+    buildings: BAN
+    color: gray
+  zapotec:
+    city: AZT
+    buildings: AZT
+    color: brown
+  zhuang:
+    city: CHI
+    buildings: CHI
+    color: dark_orange
+  zulu:
+    city: BAN
+    buildings: BAN
+    color: light_blue

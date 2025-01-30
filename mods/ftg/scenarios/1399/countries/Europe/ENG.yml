@@ -1,0 +1,203 @@
+# England #
+
+countries:
+  ENG:
+    name: England
+    ai: "ENG_1399_HYW.txt"
+
+    treasury: 250
+    inflation: 0
+    stability: -1
+
+    agents:
+      colonists: 1
+      merchants: 2.166667
+      diplomats: 1
+
+    religion: catholic
+    cultures:
+      - english
+
+    diplomacy:
+      relation:
+        FRA: -100
+        SCO: -200
+        PRO: -50
+        BRI: 100
+        BUR: 100
+        POR: 200
+
+    knownregions:
+      - Europe
+    knownprovinces:
+      - 732 # Tangiers
+      - 477
+      - 478 # Bosphorus strait
+    ownedprovinces:
+      - 233
+      - 240
+      - 241
+      - 242
+      - 243
+      - 244
+      - 245
+      - 246
+      - 247
+      - 248
+      - 249
+      - 250
+      - 424
+      - 382
+    controlledprovinces:
+      - 233
+      - 240
+      - 241
+      - 242
+      - 243
+      - 244
+      - 245
+      - 246
+      - 247
+      - 248
+      - 249
+      - 250
+      - 424
+      - 382
+    nationalprovinces:
+      - 233
+      - 240
+      - 241
+      - 242
+      - 243
+      - 244
+      - 245
+      - 246
+      - 247
+      - 248
+      - 249
+      - 250
+      - 382
+      - 424
+    claimedprovinces:
+      - 231
+      - 232
+      - 234
+      - 235
+      - 376
+      - 383
+      - 384
+      - 385
+      - 407
+      - 408
+      - 410
+      - 411
+      - 412
+      - 413
+      - 417
+      - 418
+      - 419
+      - 420
+      - 421
+      - 422
+      - 423
+
+    cities:
+      247:
+        buildings:
+          fortress: 1
+        population: 40
+        capital: yes
+      240:
+        buildings:
+          fortress: 1
+        population: 7
+      241:
+        buildings:
+          fortress: 1
+        population: 10
+      242:
+        buildings:
+          fortress: 1
+        population: 11
+      243:
+        buildings:
+          fortress: 1
+        population: 10
+      244:
+        buildings:
+          fortress: 1
+        population: 12
+      245:
+        buildings:
+          fortress: 1
+        population: 12
+      246:
+        buildings:
+          fortress: 1
+        population: 16
+      248:
+        buildings:
+          fortress: 1
+        population: 9
+      249:
+        buildings:
+          fortress: 1
+        population: 10
+      250:
+        buildings:
+          fortress: 1
+        population: 4
+      233:
+        buildings:
+          fortress: 1
+        population: 1
+      382:
+        buildings:
+          fortress: 1
+        population: 17
+      424:
+        buildings:
+          fortress: 1
+        population: 8
+
+    landunits:
+      - name: "Marcher Army"
+        location: 242
+        infantry: 12
+        cavalry: 2
+        artillery: 0
+      - name: "Calais Garrison"
+        location: 382
+        infantry: 5
+        cavalry: 1
+        artillery: 0
+      - name: "Army of Aquitaine"
+        location: 424
+        infantry: 10
+        cavalry: 2
+        artillery: 0
+
+    navalunits:
+      - id:
+          type: 9424
+          id: 16
+        name: "Home Fleet"
+        location: 249
+        warships: 25
+        galleys: 0
+        transports: 5
+      - id:
+          type: 9424
+          id: 17
+        name: "Guyenne Squadron"
+        location: 921
+        warships: 10
+        galleys: 0
+        transports: 0
+
+    technology:
+      admin: 0
+      infra: 0
+      trade: 1
+      land: 0
+      naval: 0

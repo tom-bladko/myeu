@@ -1,0 +1,100 @@
+countries:
+  POL:
+    name: Poland
+    ai: "POL_1419"
+
+    treasury: 500
+    inflation: 0
+    stability: 2
+
+    agents:
+      merchants: 1.083333
+      colonists: 0
+      diplomats: 1
+
+    religion: catholic
+    cultures:
+      - polish
+
+    diplomacy:
+      relations:
+        LIT: 150
+        MAS: 150
+        BOH: 150
+        HUN: 150
+        LAT: -100
+
+    knownregions:
+      - Europe
+    knownprovinces:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 732 # Tangiers
+      - 477
+      - 478 # Bosphorus strait
+    ownedprovinces:
+      - 298
+      - 299
+      - 300
+      - 303
+    controlledprovinces:
+      - 298
+      - 299
+      - 300
+      - 303
+    nationalprovinces:
+      - 291
+      - 292
+      - 297
+      - 298
+      - 299
+      - 300
+      - 303
+    claimedprovinces:
+      - 301
+      - 302
+      - 314
+
+    cities:
+      299:
+        buildings:
+          fortress: 1
+        population: 13
+        capital: yes
+      298:
+        buildings:
+          fortress: 1
+        population: 10
+      300:
+        building:
+          fortress: 1
+        population: 12
+      303:
+        building:
+          fortress: 1
+        population: 9
+
+    landunits:
+      - name: "Royal Polish Army"
+        location: 299
+        infantry: 15
+        cavalry: 10
+        artillery: 0
+      - name: "Army of Galicia"
+        location: 298
+        infantry: 8
+        cavalry: 3
+        artillery: 0
+
+    technology:
+      admin: 0
+      infra: 0
+      trade: 1
+      land: 0
+      naval: 0

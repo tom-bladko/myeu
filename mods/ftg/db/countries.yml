@@ -1,0 +1,380 @@
+#
+# COUNTRIES
+#
+
+country:
+
+  KON:
+    name: "Kongo"
+    color: "dark_gray"
+    techgroup: "pagan"
+    leader_language: "KON"
+    new_colony: "BAN"
+    elector: 0
+    history: {}
+
+  MAL:
+    name: "Mali"
+    color: "dark_orange"
+    techgroup: "african"
+    leader_language: "MAL"
+    new_colony: "ARA"
+    elector: 0
+    history: {}
+
+  MAS:
+    name: "Masovia"
+    color: "white"
+    techgroup: "orthodox"
+    leader_language: "POL"
+    new_colony: "POL"
+    elector: 0
+    history: {}
+
+  HUR:
+    name: "Huron"
+    color: "yellow"
+    techgroup: "pagan"
+    leader_language: "OHI"
+    new_colony: "ENG"
+    elector: 0
+    history: {}
+
+  INC:
+    name: "Inca"
+    color: "dark_blue"
+    techgroup: "pagan"
+    leader_language: "INC"
+    new_colony: "ENG"
+    elector: 0
+    history: {}
+
+  POM:
+    name: "Pomerania"
+    color: "gray"
+    techgroup: "latin"
+    leader_language: "POM"
+    new_colony: "POL"
+    elector: 0
+    history: {}
+
+  POR:
+    name: "Portugal"
+    color: "dark_green"
+    techgroup: "latin"
+    leader_language: "POR"
+    new_colony: "POR"
+    elector: 0
+    history: {}
+
+  CAS:
+    name: "Castile"
+    color: "yellow"
+    techgroup: "latin"
+    leader_language: "CAS"
+    new_colony: "SPA"
+    elector: 0
+    history: {}
+
+  CHI:
+    name: "China"
+    color: "yellow"
+    techgroup: "asian"
+    leader_language: "CHI"
+    new_colony: "ENG"
+    elector: 0
+    history: {}
+
+  BGL:
+    name: "Bengal"
+    color: "light_green"
+    techgroup: "muslim"
+    leader_language: "CHI"
+    new_colony: "ENG"
+    elector: 0
+    history: {}
+
+  KOR:
+    name: "Korea"
+    color: "white"
+    techgroup: "asian"
+    leader_language: "KOR"
+    new_colony: "ENG"
+    elector: 0
+    history: {}
+
+
+  BYZ:
+    name: "Byzantium"
+    color: "dark_red"
+    techgroup: "orthodox"
+    leader_language: "BYZ"
+    new_colony: "GRE"
+    elector: 0
+    history: {}
+
+  MAA:
+    name: "Maya"
+    color: "light_blue"
+    techgroup: "pagan"
+    leader_language: "AZT"
+    new_colony: "ENG"
+    elector: 0
+    history: {}
+
+
+  NIP:
+    name: "Japan"
+    color: "light_red"
+    techgroup: "asian"
+    leader_language: "NIP"
+    new_colony: "ENG"
+    elector: 0
+    history: {}
+
+  KHM:
+    name: "Khmer Empire"
+    color: "dark_green"
+    techgroup: "asian"
+    leader_language: "CAM"
+    new_colony: "ENG"
+    elector: 0
+    history: {}
+
+  ARG:
+    name: "Aragon"
+    color: "dark_gray"
+    techgroup: "latin"
+    leader_language: "CAT"
+    new_colony: "ENG"
+    elector: 0
+    history: {}
+
+  BRA:
+    name: "Brandenburg"
+    color: "gray"
+    techgroup: "latin"
+    leader_language: "BRA"
+    new_colony: "GER"
+    elector: 0
+    history: {}
+
+  CAT:
+    name: "Catalonia"
+    color: "light_gray"
+    techgroup: "latin"
+    leader_language: "CAT"
+    new_colony: "SPA"
+    elector: 0
+    history: {}
+
+  ENG:
+    name: "England"
+    color: "red"
+    techgroup: "latin"
+    leader_language: "ENG"
+    new_colony: "ENG"
+    elector: 0
+    history: {}
+
+
+
+  KUS:
+    name: "Kustrin"
+    color: "dark_blue"
+    techgroup: "latin"
+    leader_language: "BRA"
+    new_colony: "GER"
+    elector: 1
+    history: {}
+
+  KUT:
+    name: "Kutei"
+    color: "dark_green"
+    techgroup: "asian"
+    leader_language: "BEI"
+    new_colony: "MAJ"
+    elector: 0
+    history: {}
+
+  KZK:
+    name: "Kazakh"
+    color: "white"
+    techgroup: "asian"
+    leader_language: "KIP"
+    new_colony: "TUR"
+    elector: 0
+    history: {}
+
+  LAP:
+    name: "Argentina"
+    color: "light_gray"
+    techgroup: "latin"
+    leader_language: "SPA"
+    new_colony: "SPA"
+    elector: 0
+    history: {}
+
+  POL:
+    name: "Poland"
+    color: "red"
+    techgroup: "orthodox"
+    leader_language: "POL"
+    new_colony: "POL"
+    elector: 0
+    history: {}
+
+  LAT:
+    name: "Teutonic order"
+    color: "light_gray"
+    techgroup: "latin"
+    leader_language: "GET"
+    new_colony: "GER"
+    elector: 0
+    history: {}
+
+  LIT:
+    name: "Lithuania"
+    color: "dark_orange"
+    techgroup: "latin"
+    leader_language: "GET"
+    new_colony: "GER"
+    elector: 0
+    history: {}
+
+  HAB:
+    name: "Austria"
+    color: "white"
+    techgroup: "latin"
+    leader_language: "GET"
+    new_colony: "GER"
+    elector: 0
+    history: {}
+
+  SWE:
+    name: "Sweden"
+    color: "light_blue"
+    techgroup: "latin"
+    leader_language: "GET"
+    new_colony: "GER"
+    elector: 0
+    history: {}
+
+  DAN:
+    name: "Denmark"
+    color: "dark_red"
+    techgroup: "latin"
+    leader_language: "GET"
+    new_colony: "GER"
+    elector: 0
+    history: {}
+
+
+  BUR:
+    name: "Burgundy"
+    color: "purple"
+    techgroup: "latin"
+    leader_language: "FRA"
+    new_colony: "FRA"
+    elector: 0
+    history: {}
+
+  STE:
+    name: "Golden Horde"
+    color: "dark_gray"
+    techgroup: "muslim"
+    leader_language: "STE"
+    new_colony: "TUR"
+    elector: 0
+    history: {}
+
+  FRA:
+    name: "France"
+    color: "dark_blue"
+    techgroup: "latin"
+    leader_language: "FRA"
+    new_colony: "FRA"
+    elector: 0
+    history: {}
+
+  BOH:
+    name: "Bohemia"
+    color: "dark_brown"
+    techgroup: "latin"
+    leader_language: "GET"
+    new_colony: "GER"
+    elector: 0
+    history: {}
+
+  HUN:
+    name: "Hungary"
+    color: "light_brown"
+    techgroup: "latin"
+    leader_language: "GET"
+    new_colony: "GER"
+    elector: 0
+    history: {}
+
+  ADE:
+    name: "Aden"
+    color: "white"
+    techgroup: "muslim"
+    leader_language: "MUS"
+    new_colony: "ARA"
+    elector: 0
+    history: {}
+
+  VEN:
+    name: "Venice"
+    color: "light_green"
+    techgroup: "latin"
+    leader_language: "VEN"
+    new_colony: "ITA"
+    elector: 0
+    history: {}
+
+  AZT:
+    name: "Aztecs"
+    color: "white"
+    techgroup: "pagan"
+    leader_language: "AZT"
+    new_colony: "ENG"
+    elector: 0
+    history: {}
+
+  KUR:
+    name: "Courland"
+    color: "light_brown"
+    techgroup: "latin"
+    leader_language: "GER"
+    new_colony: "GER"
+    elector: 0
+    history: {}
+
+  NVG:
+    name: "Novogrod"
+    color: "white"
+    techgroup: "orthodox"
+    leader_language: "RUS"
+    new_colony: "RUS"
+    elector: 0
+    history: {}
+
+  TUR:
+    name: "Ottoman Empire"
+    color: "green"
+    techgroup: "muslim"
+    leader_language: "TUR"
+    new_colony: "TUR"
+    elector: 0
+    history: {}
+
+
+  NOR:
+    name: "Norway"
+    color: "brown"
+    techgroup: "latin"
+    leader_language: "NOR"
+    new_colony: "NOR"
+    elector: 0
+    history: {}

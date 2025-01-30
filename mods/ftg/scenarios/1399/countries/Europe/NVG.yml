@@ -1,0 +1,145 @@
+countries:
+  NVG:
+    name: Novgorod
+    ai: "MOS_1419_Standard.txt"
+
+    treasury: 400
+    inflation: 0
+    stability: -1
+
+    agents:
+      merchants: 0
+      colonists: 1
+      diplomats: 1
+
+    religion: orthodox
+    cultures:
+      - russian
+      - ugric
+
+    diplomacy:
+      relations:
+        MOS: -150
+        PSK: -150
+        RYA: -150
+        TVE: -150
+        YRL: -150
+        STE: -100
+        POL: -50
+        LIT: -50
+
+    knownregions:
+      - Europe
+      - Ob
+      - Sibir
+    knownprovinces:
+      - 732
+      - 477
+      - 478
+
+    ownedprovinces:
+      - 262
+      - 266
+      - 267
+      - 269
+      - 273
+      - 274
+      - 275
+      - 1470
+      - 1583
+
+    controlledprovinces:
+      - 262
+      - 266
+      - 267
+      - 269
+      - 273
+      - 274
+      - 275
+      - 1470
+      - 1583
+
+    nationalprovinces:
+      - 262
+      - 266
+      - 267
+      - 269
+      - 273
+      - 274
+      - 275
+      - 277
+      - 1470
+
+    casusbelliprovinces:
+      - 268
+      - 270
+      - 272
+      - 278
+      - 279
+      - 448
+
+    cities:
+      273:
+        buildings:
+          fortress: 1
+        population: 1
+      274:
+        buildings:
+          fortress: 2
+        population: 30
+        capital: yes
+      275:
+        buildings:
+          fortress: 1
+        population: 4
+      267:
+        buildings:
+          fortress: 1
+        population: 3
+      266:
+        buildings:
+          fortress: 1
+        population: 2
+      262:
+        population: 1
+      269:
+        buildings:
+          fortress: 1
+        population: 1
+      1470:
+        population: 1
+
+    tradingposts:
+      1583:
+        level: 2
+
+    landunits:
+      - name: "Novgorodian Guard"
+        location: 274
+        infantry: 10
+        cavalry: 2
+        artillery: 0
+      - name: "Reserve Guard"
+        location: 275
+        infantry: 8
+        cavalry: 0
+        artillery: 5
+
+    navalunits:
+      - name: "Baltic Trade Fleet"
+        location: 275
+        warships: 2
+        galleys: 10
+        transports: 0
+      - name: "White Sea Fleet"
+        location: 269
+        warships: 3
+        galleys: 0
+        transports: 0
+
+    technology:
+      admin: 0
+      infra: 0
+      trade: 1
+      land: 0
+      naval: 0

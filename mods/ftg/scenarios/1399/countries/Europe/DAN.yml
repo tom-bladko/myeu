@@ -1,0 +1,93 @@
+# Denmark #
+
+countries:
+  DAN:
+    name: Denmark
+    ai: "DAN_1419_Early"
+
+    treasury: 800
+    inflation: 0
+    stability: 3
+
+    agents:
+      colonists: 0
+      merchants: 2.0
+
+    religion: catholic
+    cultures:
+      - nordic
+
+    diplomacy:
+      relation:
+        SWE: 100
+        NOR: 190
+        SHL: -100
+        POM: -150
+        MEC: -150
+        BRE: -150
+        OLD: -150
+
+    knownregions:
+      - Europe
+    knownprovinces:
+      - 732 # Tangiers
+      - 477
+      - 478 # Bosphorus strait
+      - 835
+      - 1537
+      - 1538 # Greenland
+    ownedprovinces:
+      - 251
+      - 307
+      - 309
+    controlledprovinces:
+      - 251
+      - 307
+      - 309
+    nationalprovinces:
+      - 251
+      - 306
+      - 307
+      - 308
+      - 309
+
+    cities:
+      307:
+        buildings:
+          fortress: 1
+        population: 12
+        capital: yes
+      309:
+        buildings:
+          fortress: 1
+        population: 10
+      251:
+        buildings:
+          fortress: 1
+        population: 8
+
+    landunits:
+      - name: "Danish Army"
+        location: 309
+        infantry: 20
+        cavalry: 6
+        artillery: 0
+      - name: "Copenhagen Defenders"
+        location: 307
+        infantry: 9
+        cavalry: 1
+        artillery: 0
+
+    navalunits:
+      - name: "Baltic Fleet"
+        location: 307
+        warships: 20
+        galleys: 0
+        transports: 9
+
+    technology:
+      admin: 0
+      infra: 0
+      trade: 1
+      land: 0
+      naval: 1

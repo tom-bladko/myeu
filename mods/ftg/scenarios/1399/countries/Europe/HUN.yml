@@ -1,0 +1,135 @@
+# Hungary #
+
+countries:
+  HUN:
+    name: Hungary
+    ai: "HUN_1419"
+
+    treasury: 200
+    inflation: 0
+    stability: -3
+
+    agents:
+      merchants: 0.083333
+      colonists: 0
+
+    religion: catholic
+    cultures:
+      - magyar
+      - slovak
+
+    diplomacy:
+      relation:
+        HAB: 100
+        BOH: 150
+        POL: 150
+        LIT: 100
+        NAP: -200
+        VEN: -100
+        BOS: -100
+
+    knownregions:
+      - Europe
+    knownprovinces:
+      - 732 # Tangiers
+      - 477
+      - 478 # Bosphorus strait
+    ownedprovinces:
+      - 316
+      - 317
+      - 323
+      - 324
+      - 325
+      - 326
+      - 352
+      - 353
+      - 354
+      - 366
+    controlledprovinces:
+      - 316
+      - 317
+      - 323
+      - 324
+      - 325
+      - 326
+      - 352
+      - 353
+      - 354
+      - 366
+    nationalprovinces:
+      - 316
+      - 317
+      - 323
+      - 324
+      - 325
+      - 326
+      - 352
+      - 353
+      - 354
+
+    cities:
+      323:
+        buildings:
+          fortress: 1
+        population: 7
+      324:
+        buildings:
+          fortress: 1
+        population: 6
+      325:
+        buildings:
+          fortress: 1
+        population: 19
+        capital: yes
+      326:
+        buildings:
+          fortress: 1
+        population: 8
+      353:
+        buildings:
+          fortress: 1
+        population: 9
+      354:
+        buildings:
+          fortress: 1
+        population: 5
+      316:
+        buildings:
+          fortress: 1
+        population: 8
+      317:
+        buildings:
+          fortress: 1
+        population: 6
+      352:
+        buildings:
+          fortress: 1
+        population: 8
+      366:
+        buildings:
+          fortress: 1
+        population: 9
+
+    landunits:
+      - name: "Royal Magyar Army"
+        location: 325
+        infantry: 15
+        cavalry: 5
+        artillery: 0
+      - name: "Slovaks"
+        location: 316
+        infantry: 10
+        cavalry: 0
+        artillery: 0
+      - name: "Cumans"
+        location: 354
+        infantry: 0
+        cavalry: 5
+        artillery: 0
+
+    technology:
+      admin: 0
+      infra: 0
+      trade: 1
+      land: 0
+      naval: 0

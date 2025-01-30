@@ -1,0 +1,162 @@
+countries:
+  FRA:
+    name: France
+    ai: "FRA_1399_HYW.txt"
+
+    treasury: 400
+    inflation: 0
+    stability: 0
+
+    agents:
+      merchants: 1.083333
+      colonists: 1
+      diplomats: 0
+
+    religion: catholic
+    cultures:
+      - french
+
+    diplomacy:
+      relations:
+        ENG: -100
+        DAU: 150
+        PRO: 150
+        ARG: 100
+        BUR: 150
+        KNI: 100
+        SAV: 50
+        GEN: -50
+        BRI: 100
+
+    knownregions:
+      - Europe
+    knownprovinces:
+      - 732 # Tangiers
+      - 477
+      - 478 # Bosphorus strait
+    ownedprovinces:
+      - 376
+      - 384
+      - 383
+      - 385
+      - 410
+      - 411
+      - 413
+      - 417
+      - 418
+      - 419
+      - 422
+      - 423
+    controlledprovinces:
+      - 376
+      - 384
+      - 383
+      - 385
+      - 410
+      - 411
+      - 413
+      - 417
+      - 418
+      - 419
+      - 422
+      - 423
+    nationalprovinces:
+      - 376
+      - 382
+      - 383
+      - 384
+      - 385
+      - 410
+      - 411
+      - 413
+      - 417
+      - 418
+      - 419
+      - 422
+      - 423
+      - 424
+    claimedprovinces:
+      - 407
+      - 408
+
+    cities:
+      385:
+        buildings:
+          fortress: 1
+        population: 60
+        capital: yes
+      376:
+        buildings:
+          fortress: 1
+        population: 12
+      410:
+        buildings:
+          fortress: 1
+        population: 14
+      411:
+        buildings:
+          fortress: 1
+        population: 21
+      417:
+        buildings:
+          fortress: 1
+        population: 8
+      418:
+        buildings:
+          fortress: 1
+        population: 16
+      419:
+        buildings:
+          fortress: 1
+        population: 10
+      422:
+        buildings:
+          fortress: 1
+        population: 18
+      423:
+        buildings:
+          fortress: 1
+        population: 25
+      383:
+        buildings:
+          fortress: 1
+        population: 13
+      384:
+        buildings:
+          fortress: 1
+        population: 24
+      413:
+        buildings:
+          fortress: 1
+        population: 13
+
+    landunits:
+      - name: "Armée du Roi"
+        location: 385
+        infantry: 15
+        cavalry: 3
+        artillery: 0
+      - name: "Armée d'Italie"
+        location: 422
+        infantry: 15
+        cavalry: 3
+        artillery: 0
+
+    navalunits:
+      - name: "Escadre de Méditerranée"
+        location: 422
+        warships: 10
+        galleys: 0
+        transports: 1
+      - name: "Escadre de la Manche"
+        location: 413
+        warships: 10
+        galleys: 0
+        transports: 1
+
+    technology:
+      admin: 0
+      infra: 0
+      trade: 1
+      land: 0
+      naval: 0

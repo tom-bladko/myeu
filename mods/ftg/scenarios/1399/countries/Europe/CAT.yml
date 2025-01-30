@@ -1,0 +1,136 @@
+# Castile #
+
+countries:
+  CAS:
+    name: Castile
+    ai: "SPA_1399_Bettencourt"
+
+    treasury: 400
+    inflation: 0
+    stability: 3
+
+    agents:
+      colonists: 3.25
+      merchants: 4.083333
+
+    religion: catholic
+    cultures:
+      - iberian
+      - basque
+
+    diplomacy:
+      relation:
+        POR: -100
+        ARG: 100
+        NAV: 150
+        KNI: 100
+        GRA: -200
+        MOR: -200
+        TLE: -200
+        TUN: -200
+
+    knownregions:
+      - Europe
+      - North Africa
+      - TagoSea
+    knownprovinces:
+      - 477
+      - 478 # Bosphorus strait
+      - 817 # Canary Islands
+    ownedprovinces:
+      - 431
+      - 432
+      - 433
+      - 435
+      - 436
+      - 438
+      - 439
+      - 440
+      - 443
+      - 817
+    controlledprovinces:
+      - 431
+      - 432
+      - 433
+      - 435
+      - 436
+      - 438
+      - 439
+      - 440
+      - 443
+      - 817
+    nationalprovinces:
+      - 431
+      - 432
+      - 433
+      - 435
+      - 436
+      - 438
+      - 439
+      - 440
+      - 443
+    claimedprovinces:
+      - 444
+      - 445
+      - 817
+
+    cities:
+      436:
+        buildings:
+          fortress: 1
+        population: 8
+      431:
+        buildings:
+          fortress: 1
+        population: 9
+      432:
+        buildings:
+          fortress: 1
+        population: 8
+      433:
+        buildings:
+          fortress: 1
+        population: 8
+      435:
+        buildings:
+          fortress: 1
+        population: 13
+      438:
+        buildings:
+          fortress: 1
+        population: 9
+      439:
+        buildings:
+          fortress: 2
+        population: 35
+        capital: yes
+      440:
+        buildings:
+          fortress: 1
+        population: 10
+      443:
+        buildings:
+          fortress: 1
+        population: 35
+      817:
+        population: 1
+
+    landunits:
+      - name: "Pendón Real"
+        location: 439
+        infantry: 35
+        cavalry: 5
+
+    navalunits:
+      - name: "Armada Real"
+        location: 433
+        warships: 8
+        galleys: 15
+        transports: 2
+
+    technology:
+      admin: 0
+      infra: 0
+      trade: 1
+      land: 0
+      naval: 0
