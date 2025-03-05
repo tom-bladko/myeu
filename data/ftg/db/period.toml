@@ -1,0 +1,145 @@
+#-----------------------------------------------------------
+#
+#  GAME PERIODS, SAME LIKE TECHNOLOGY LEVELS
+#
+#-----------------------------------------------------------
+
+#
+#   FTG periods
+#
+
+[0]
+start = 1200-01-01
+end = 1279-12-01
+years = 80
+remark = "Pre FTG"
+label = "Medieval"
+modifiers = {}
+
+[1]
+start = 1280-01-01
+end = 1359-12-01
+years = 80
+remark = "Pre FTG"
+label = "Medieval"
+modifiers = {}
+
+[2]
+start = 1360-01-01
+end = 1419-12-01
+years = 60
+remark = "Pre FTG"
+label = "Late Medieval"
+modifiers = {}
+
+#
+#   FTG periods
+#
+
+[3]
+start = 1420-01-01
+end = 1479-12-01
+years = 60
+remark = "FTG"
+label = "Late Medieval"
+modifiers = {}
+
+[4]
+start = 1480-01-01
+end = 1529-12-01
+years = 50
+remark = "FTG"
+label = "Early Renaissance"
+modifiers = {}
+
+[5]
+start = 1530-01-01
+end = 1579-12-01
+years = 50
+remark = "FTG"
+label = "Renaissance"
+modifiers = {}
+
+[6]
+start = 1580-01-01
+end = 1619-12-01
+years = 40
+remark = "FTG"
+label = "Late Renaissance"
+modifiers = {}
+
+[7]
+start = 1620-01-01
+end = 1659-12-01
+years = 40
+remark = "FTG"
+label = "Early Baroque"
+modifiers = {}
+
+[8]
+start = 1660-01-01
+end = 1699-12-01
+years = 40
+remark = "FTG"
+label = "Baroque"
+modifiers = {}
+
+[9]
+start = 1700-01-01
+end = 1729-12-01
+years = 30
+remark = "FTG"
+label = "Late Baroque"
+modifiers = {}
+
+[10]
+start = 1730-01-01
+end = 1759-12-01
+years = 30
+remark = "FTG"
+label = "Early Enlightenment"
+modifiers = {}
+
+[11]
+start = 1760-01-01
+end = 1789-12-01
+years = 30
+remark = "FTG"
+label = "Late Enlightenment"
+modifiers = {}
+
+[12]
+start = 1790-01-01
+end = 1819-12-01
+years = 30
+remark = "FTG"
+label = "Early Industrial"
+modifiers = {}
+
+#
+#   post FTG periods
+#
+
+[13]
+start = 1820-01-01
+end = 1849-12-01
+years = 30
+remark = "Post FTG"
+label = "Industrial"
+modifiers = {}
+
+[14]
+start = 1850-01-01
+end = 1874-12-01
+years = 25
+remark = "Post FTG"
+label = "Late Industrial"
+modifiers = {}
+
+[15]
+start = 1875-01-01
+end = 1899-12-01
+years = 25
+remark = "Post FTG"
+label = "Imperialism"
+modifiers = {}
